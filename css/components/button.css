@@ -1,0 +1,22 @@
+.btn-medium {
+  background-color: #F88F01;
+  color: #fff;
+  padding: 15px 30px;
+  display: inline-block;
+  border-radius: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn-medium:hover {
+  background: #F88F01;
+}
+
+.btn-medium:hover::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f002";
+  margin-right: 10px;
+}
